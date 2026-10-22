@@ -1,0 +1,4 @@
+body { font: 16px/1.6 system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; color: #2b2622; background: #f6f3ee; }
+h1, h2 { color: #8a5a2b; line-height: 1.25; }
+a { color: #8a5a2b; }
+.muted { color: #7a7068; font-size: 0.9em; }

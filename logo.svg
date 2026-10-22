@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="HESTIA">
+  <rect width="120" height="120" rx="26" fill="#f6f3ee"/>
+  <g transform="translate(0 -8)">
+    <path d="M60 98 C38 98 29 82 33 67 C37 53 49 47 50 33 C58 40 62 48 61 56 C66 47 70 39 69 26 C84 41 91 59 87 74 C83 89 72 98 60 98 Z" fill="#8a5a2b"/>
+    <path d="M60 93 C51 93 46 86 48 78 C50 70 57 66 59 58 C64 64 71 71 71 79 C71 87 66 93 60 93 Z" fill="#d39a5e"/>
+    <rect x="28" y="101" width="64" height="7" rx="3.5" fill="#2b2622"/>
+  </g>
+</svg>
