@@ -21,12 +21,16 @@ and tells the owner each time; any other event is created only after the owner e
 <h2>How it is used</h2>
 <p>Only to provide features to the owner: answering the owner's own questions about their
 schedule, putting the owner's bookings and due dates on the owner's own calendar, keeping a
-private note of events the owner attended, and preparing email drafts for the owner to review.</p>
+private note of events the owner attended, preparing email drafts for the owner to review, and
+warning the owner about travel times and traffic for the owner's own appointments.</p>
 
 <h2>Where it is processed and stored</h2>
 <p>All Google data is processed on the owner's computer, by an AI model that runs locally.
 Google data, and anything derived from it, is never sent to any third-party service,
-including any third-party AI service. Notes derived from it are stored in the owner's local
+including any third-party AI service. The one exception is travel times: the location of one
+of the owner's calendar events may be sent to Google's own Routes API (Google Maps Platform),
+together with the starting place and a departure time, to estimate how long the trip will take.
+Nothing else from the event, such as its title, description or attendees, is sent. Notes derived from it are stored in the owner's local
 files. Sign-in tokens are stored locally, readable only by the owner's account.</p>
 
 <h2>Sharing</h2>
